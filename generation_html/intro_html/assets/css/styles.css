@@ -1,0 +1,15 @@
+p {
+    color: red;
+}
+
+.saludo{
+    color: rgb(70, 226, 70);
+}
+
+.negritas{
+    font-weight: bold;
+}
+
+.pikachu{
+    width: 300px;
+}
