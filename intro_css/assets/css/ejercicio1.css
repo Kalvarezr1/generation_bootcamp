@@ -1,0 +1,14 @@
+
+.ej1{
+    background-color: rgb(241, 143, 230);
+}
+
+.ej2{
+    background-color: rgb(230, 139, 66);
+    border-radius: 1px;
+    border: 1px solid brown;
+}
+
+.ej3{
+    border-right: 4px dashed rgb(234, 59, 181);
+}
