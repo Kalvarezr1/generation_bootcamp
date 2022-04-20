@@ -38,18 +38,18 @@
         <input type="submit" value="Mandar">
     </form>
 
-    <script>
+    <!-- <script>
         const color = document.querySelector("#inputColor")
         console.log(color)
 
         color.addEventListener("change", function (e) {
             document.body.style.backgroundColor = e.target.value;
         })
-    </script>
+    </script> -->
 
     <hr>
     <h1>Formulario</h1>
-    <form class="formulario">
+    <form class="formulario" id="formularioDatos">
         <div class="nombre">
             <label class="acomodoLabel" for="nombre">Nombre</label>
             <input class="nombreColor" type="text" name="name" id="nombre" required>
@@ -57,24 +57,28 @@
         <br>
         <div class="apellido">
             <label class="acomodoLabel" for="apellido">Apellido</label>
-            <input class="nombreColor" type="text" name="name" id="apellido">
+            <input class="nombreColor" type="text" name="lastname" id="apellido">
         </div>
         <br>
         <div class="password">
             <label class="acomodoLabel" for="password">Contraseña</label>
-            <input class="nombreColor" type="password" id="password" required>
+            <input class="nombreColor" name="password" type="password" id="password" required>
         </div>
         <br>
         <div class="correo">
             <label class="acomodoLabel" for="correo">E-mail</label>
-            <input class="nombreColor" type="email" required id="correo">
+            <input class="nombreColor" name="email" type="email" id="correo">
         </div>
-        <br>
+        <input type="checkbox" name="check" checked>
         <div class="enviar">
-            <input type="submit" value="Enviar">
-            <button type="submit"> <img width="10px" src="https://img2.freepng.es/20200215/xgs/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg" alt="">Enviar</button>
+            <input class="btnEnviar" type="submit" value="Enviar">
+            <!-- <button type="submit"> <img width="10px" src="https://img2.freepng.es/20200215/xgs/transparent-green-logo-symbol-circle-h55e7a0d14054758.8859985915850570440216.jpg" alt="">Enviar</button> -->
         </div>
     </form>
+
+    <!-- Scripts -->
+
+    <script src="assets/js/main.js"></script>
     
 </body>
 </html>
