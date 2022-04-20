@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+}
+
+.formulario{
+    border: 10px solid blueviolet;
+    padding: 10px;
+    background-color: rgb(204, 167, 239);
+}
+
+.nombreColor{
+    background-color: violet;
+    border: none;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 100px;
+}
+
+.btnEnviar{
+    background-color: antiquewhite;
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.acomodoLabel{
+    display: inline-block;
+    width: 100px;
+}

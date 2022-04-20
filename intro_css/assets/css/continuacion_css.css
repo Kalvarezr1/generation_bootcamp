@@ -1,0 +1,48 @@
+
+/* 
+px: para tamaño de fuente o del body.
+Medidas de pantallas: 1200px-PC, 750px-TABLET, 450px-CELULAR
+*/
+
+/* 
+Unidades de mediad relativas: 
+% - Unidad de medida fija
+Rem-Tamaño de px de nuestro navegador, se adapta
+Em - Tamaño de fuente del elemnto padre
+vw: Viewport width
+vh: Viewport heigth
+*/
+
+
+
+body{
+    margin: 0;
+}
+
+.forma{
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+}
+
+.color{
+    background-color: blue;
+    border: 5px solid red;
+}
+
+p{
+    padding: 20px;
+    border: 2px solid black;
+}
+
+a{
+    width: 50%;
+    padding: 10px;
+    border: 3px solid red;
+    display: block;
+    margin: 10px auto 0 auto;
+    text-align: center;
+}
