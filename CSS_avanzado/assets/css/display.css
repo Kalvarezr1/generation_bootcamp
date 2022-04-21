@@ -1,0 +1,43 @@
+.padre{
+    width: 80%;
+    height: 150vh;
+    border: 1px solid red;
+    margin: 0 auto;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* align-items: center; */
+}
+
+/* 
+row(fila)
+justify content los acomoda horizontalmente (izquierda-derecha)
+
+align-items Verticalmente (arriba-abajo)
+
+column(columna)
+align-items horizontalmente (izquierda-derecha)
+
+justify content los acomoda verticalmente (arriba-abajo)
+*/
+
+
+.hijo{
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+}
+
+.div1{
+    background-color: blue;
+    align-self: flex-end;
+}
+
+.div2{
+    background-color: violet;
+}
+
+.div3{
+    background-color: tomato;
+}
