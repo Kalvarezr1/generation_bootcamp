@@ -1,0 +1,16 @@
+/* Navbar */
+
+.img_logo{
+    width: 200px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Carrousel */
+
+.img_carrousel{
+    height: calc(10vh -76px);/* para realizar el calculo se resta lo que mide el navbar de ancho, mas el padding de arriba y abajo */
+    object-fit: cover;
+    object-position: center;
+}
