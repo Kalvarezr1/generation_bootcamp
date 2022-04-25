@@ -16,8 +16,8 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <!-- Para poner un color especifico se puede agregar un estili en line css: style:"backgrond color: black" *se quita el bg-dark-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <!-- Para poner un color especifico se puede agregar un estilo en linea css: style:"backgrond color: black" *se quita el bg-dark-->
 
         <div class="container">
         <a class="navbar-brand" href="#">
@@ -60,11 +60,105 @@
         </button>
       </div>
 
-      <div id="adopta">
+
+
+      <div id="imagenes" class="mt-5">
+        <div class="container">
+          <h2 class="mb-5 text-center">Imágenes</h2>
+          <div class="row row-cols-1 row-cols-md-3">
+            <div class="col mb-4">
+              <div class="card">
+                <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-1199242002.jpg?crop=0.666xw:1.00xh;0.201xw,0&resize=480:*" class="card-img-top img-card" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Gatito 1</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-5">
+              <div class="card">
+                <img src="https://www.purina-latam.com/sites/g/files/auxxlc391/files/styles/social_share_large/public/Purina%C2%AE%20La%20llegada%20del%20gatito%20a%20casa.jpg?itok=_3VnSPSl" class="card-img-top img-card" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Gatito 2</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card">
+                <img src="https://i.pinimg.com/736x/0e/a8/12/0ea812ffae6a7e5a740cf554eb40ea77.jpg" class="card-img-top img-card" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Gatito 3</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card">
+                <img src="https://cosasdemascotas.net/wp-content/uploads/2020/06/ijgk7otlk58-scaled.jpg" class="card-img-top img-card" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Gatito 4</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4">
+              <div class="card">
+                <img src="https://static2.abc.es/media/sociedad/2016/10/20/gato-huerfano2-kM2--620x349@abc.jpg" class="card-img-top img-card" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Gatito 5</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4">
+              <div class="card">
+                <img src="https://i.pinimg.com/originals/e0/19/17/e0191785c29396e42bccc19c6c3db098.jpg" class="card-img-top img-card" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Gatito 6</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div id="video" class="bg-dark">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/ce0LPDPV5NE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div class="col">
+              <h2 class="text-white text-center">Ver video antees de adoptar</h2>
+              <p class="text-white text-center"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis, minima amet numquam modi quam cupiditate dolorem quia eius neque fugiat consequatur eum voluptas tenetur soluta quos atque eligendi laborum!</p>
+            </div>
+
+            
+
+            
+          </div>
+        </div>
+
+      </div>
+
+      <div id="adoptar" class ="mt-5">
           <div class="container">
-              <div class="row">
+              <div class="row align-items-center">
+
+                <div class="col">
+                  <h2>Adóptame</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum saepe totam eos consequuntur modi quisquam mollitia quibusdam. Est inventore aliquid, tenetur officia nihil temporibus et. Voluptate corporis eos minima eveniet!</p>
+
+                  <button type="button" class="btn btn-dark">Saber más</button>
+              </div>
                 
-                  <div class="col bg-primary">
+                  <div class="col bg-dark text-white rounded-lg p-5">
                     <form>
                         <div class="form-row">
                           <div class="form-group col-md-6">
@@ -109,13 +203,9 @@
                             </label>
                           </div>
                         </div>
-                        <button type="submit" class="btn btn-primary">Sign in</button>
+                        <button type="submit" class="btn btn-warning">Sign in</button>
                       </form>
                   </div>
-
-                  <div class="col">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ut ea quibusdam, tenetur qui iure placeat optio mollitia incidunt itaque rem perspiciatis necessitatibus dolorem quis? Quidem aut, optio doloribus adipisci fugiat voluptatem quod repellendus minus consequuntur! Fugiat, eius. Officiis est, illo dolorum in, praesentium hic tempora quo iste porro dolore soluta quis vitae amet placeat iure facilis nihil vero et itaque ducimus esse, cupiditate atque repudiandae! Doloremque nostrum inventore, laborum repellendus aliquid autem ea tempore quod quam neque enim nihil facere atque velit eum veritatis rem. Ad non perferendis corrupti, eum quidem aut quis nihil architecto quam iusto illo debitis?
-                </div>
               </div>
           </div>
       </div>

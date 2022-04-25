@@ -10,7 +10,15 @@
 /* Carrousel */
 
 .img_carrousel{
-    height: calc(10vh -76px);/* para realizar el calculo se resta lo que mide el navbar de ancho, mas el padding de arriba y abajo */
+    height: calc(10vh -76px);/* para realizar el calculo se resta lo que mide el navbar de alto, mas el padding de arriba y abajo */
+    object-fit: cover;
+    object-position: center;
+}
+
+/* IMAGENES */
+.img-card{
+    /* width: 100px; */
+    height: 200px;
     object-fit: cover;
     object-position: center;
 }
