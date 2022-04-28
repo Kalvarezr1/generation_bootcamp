@@ -16,7 +16,6 @@
 
 //console.log(saludar('Alberto', 'Hernandez').toLocaleLowerCase());
 
-
 /* document.write('<h1>Este es un h1</h1>');
 console.log('<h1>Este es un h1</h1>');
 console.log(`<h1>Este es un h1</h1>`);//plantilla literal
@@ -29,22 +28,18 @@ console.log(`<h1>Este es un h1</h1>`);//plantilla literal
 
 //console.log(funcionSaludar.toLocaleUpperCase());
 
-
 /* Funcion declarada */
-console.log(suma(10,20));//se puede mandar a llamar incluso antes de inicializarla a eso se le llama "hosting"
-function suma(a,b){
-    return a+b;
+console.log(suma(10, 20)); //se puede mandar a llamar incluso antes de inicializarla a eso se le llama "hosting"
+function suma(a, b) {
+  return a + b;
 }
-
-
-
 
 /* Funciones expresadas | fincion expresión */
-const resta = function(a, b){
-    return a -b;
-}
+const resta = function (a, b) {
+  return a - b;
+};
 
-console.log(resta(30,10));
+console.log(resta(30, 10));
 
 /* setTimeout(()=>{ //callback
 
@@ -55,6 +50,6 @@ console.log(resta(30,10));
     return a*b;
 } */
 
-const multiplicacion = (a,b) => a*b; //puede usarse tambien de esta forma, si "{"
+const multiplicacion = (a, b) => a * b; //puede usarse tambien de esta forma, si "{"
 
 console.log(multiplicacion(40, 5));
