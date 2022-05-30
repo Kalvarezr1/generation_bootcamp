@@ -1,18 +1,17 @@
 const url = "https://jsonplaceholder.typicode.com/albums/1/photos";
 
-const $cartas = document.querySelector('#cartas');
+const $cartas = document.querySelector("#cartas");
 
 fetch(urlApi)
-.then((resp)=> resp.json())
-.then((data)=> {
-    console.log(data[]);
+  .then((resp) => resp.json())
+  .then((data) => {
+    console.log(data);
 
-    data.forEach((dato)=>{
+    data.forEach((dato) => {
+      const imagen = dato.thumbnailUrl;
+      const titulo = dato.title;
 
-        const imagen = dato.thumbnailUrl;
-        const titulo = dato.title;
-
-        const contenido = `<div class="col mb-4">
+      const contenido = `<div class="col mb-4">
                             <div class="card">
                                 <img src="..." class="card-img-top" alt="...">
                                  <div class="card-body">
@@ -21,9 +20,9 @@ fetch(urlApi)
                              </div>
                          </div>
                     </div>`;
-                    $cartas.innerHTML +=contenido;
-    })
-})
+      $cartas.innerHTML += contenido;
+    });
+  });
 
 /* const container = document.getElementById("card-container");
 

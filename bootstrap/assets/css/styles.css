@@ -1,51 +1,52 @@
 /* Navbar */
-
-.img_logo{
-    width: 200px;
-    height: 50px;
-    object-fit: cover;
-    object-position: center;
+.img_logo {
+  width: 200px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center;
 }
 
 /* Carrousel */
 
-.img_carrousel{
-    height: calc(100vh - 76px);/* para realizar el calculo se resta lo que mide el navbar de alto, mas el padding de arriba y abajo */
-    object-fit: cover;
-    object-position: center;
+.img_carrousel {
+  height: calc(
+    100vh - 76px
+  ); /* para realizar el calculo se resta lo que mide el navbar de alto, mas el padding de arriba y abajo */
+  object-fit: cover;
+  object-position: center;
 }
-.pantalla{
-    position: absolute;
-    z-index: 1;
-    width: 100%;
-    height: calc(100vh - 76px);
+.pantalla {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: calc(100vh - 76px);
 
-    display: flex;
-    justify-content: center; /* Centrar horizontal */
-    align-items: center; /* Centrar vertical */
+  display: flex;
+  justify-content: center; /* Centrar horizontal */
+  align-items: center; /* Centrar vertical */
 
-    text-align: center;
+  text-align: center;
 }
 
-.cuadro{
-    background-color: rgba(0, 0, 0, 0.482);
-    border-radius: 10%;
-    padding: 20px;
-    color: white;
-    width: 50vw;
+.cuadro {
+  background-color: rgba(0, 0, 0, 0.482);
+  border-radius: 10%;
+  padding: 20px;
+  color: white;
+  width: 50vw;
 }
 
 /* IMAGENES */
-.img-card{
-    /* width: 100px; */
-    height: 200px;
-    object-fit: cover;
-    object-position: center;
+.img-card {
+  /* width: 100px; */
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
 }
 
 /* Video */
 
-.videoIframe{
-    width: 100%;
-    height: 250px;
+.videoIframe {
+  width: 100%;
+  height: 250px;
 }
